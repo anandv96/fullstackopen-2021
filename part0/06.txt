@@ -1,0 +1,13 @@
+title 06
+
+note over browser:
+user types and submits note
+browser runs js code that sends POST request
+end note
+
+browser->server: HTTP POST with the note data https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: HTTP 201 "note created"
+
+note over browser:
+browser re-renders the page with the note
+end note
